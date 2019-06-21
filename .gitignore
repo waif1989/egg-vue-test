@@ -26,7 +26,12 @@ run
 _site
 logs
 config/manifest.json
+app/**/*.js
+config/*.js
 app/view/*
 !app/view/layout.html
 !app/view/.gitkeep
+!webpack.config.js
+!app/web/**/*.js
+!postcss.config.js
 package-lock.json
